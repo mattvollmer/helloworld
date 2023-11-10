@@ -29,6 +29,6 @@ final class HelloWorldUITestsLaunchTests: XCTestCase {
         attachment.lifetime = .keepAlways
         add(attachment)
         
-        app.staticTexts["Hey there!"].tap()
+        app.staticTexts["Hey there"].tap()
     }
 }
